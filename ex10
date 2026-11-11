@@ -1,0 +1,15 @@
+class account:
+    def accountno (self):
+        print("account number")
+class saving (account):
+    def credit(self):
+        print("money crediting")
+class current (account):
+    def withdraw(self):
+        print("money withdraw")
+s=saving ()
+s.accountno
+s.credit
+c=current()
+c.accountno
+c.withdraw
